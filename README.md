@@ -1,8 +1,9 @@
 
 # REST Fizzbuzz
 
-A small api which returns a fizzbuzz array using NodeJS Express. Run using `npm start` and navigating to localhost:3000.
-
+API which returns a fizzbuzz array and metric using NodeJS Express. 
+ - Run using `npm install`.
+ - Run using `npm start` and navigating to localhost:3000.
 
 ## API Reference
 
@@ -19,7 +20,6 @@ A small api which returns a fizzbuzz array using NodeJS Express. Run using `npm 
 | `strOne` | `string` | The string to be printed when a number is divisible by intOne. *defaults to fizz* |
 | `intTwo` | `number` | The mod position to replace by strTwo in the array *defaults to 5* |
 | `strTwo` | `string` | The string to be printed when a number is divisible by intTwo. *defaults to buzz* |
-| `onBoth` | `string` | The string to be printed when a number is divisible by intOne and intTwo. *defaults to fizzbuzz* |
 
 **Example**
 
@@ -30,6 +30,8 @@ A small api which returns a fizzbuzz array using NodeJS Express. Run using `npm 
 ```javascript
 [1,2,"toto",4,"buzz","toto",7,8,"toto","buzz",11,"toto",13,14,"totobuzz"]
 ```
+
+#### Get metric of the most used request and the number.
 
 ```http
   GET /metric
