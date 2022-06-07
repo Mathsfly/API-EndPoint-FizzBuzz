@@ -40,5 +40,5 @@ API which returns a fizzbuzz array and metric using NodeJS Express.
 /?limit=50 call by Three and maximal in all request.
 **Returns**
 ```javascript
-[{url: "/?limit=50", numberAccess: 3}]
+{url: "/?limit=50", numberAccess: 3}
 ```
